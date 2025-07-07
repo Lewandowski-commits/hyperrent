@@ -2,9 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a2e;
-    /* Dark background from logo */
-    color: #e0e0e0;
+    background-color: #1a1a1a;
+    /* Dark background, closer to black */
+    color: #f0f0f0;
     /* Light text color */
     line-height: 1.6;
 }
@@ -17,12 +17,13 @@ body {
 }
 
 header {
-    background: #16213e;
+    background: #222222;
     /* Slightly lighter dark for header */
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #0f3460 3px solid;
+    border-bottom: #444444 3px solid;
+    /* Dark gray border */
     text-align: center;
 }
 
@@ -37,8 +38,8 @@ header h1 {
     margin: 0;
     padding: 0;
     font-size: 2.5em;
-    color: #e94560;
-    /* Accent color from logo */
+    color: #ffffff;
+    /* White accent color */
 }
 
 header p {
@@ -51,8 +52,8 @@ header p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #0f3460;
-    /* Dark blue accent */
+    background: #333333;
+    /* Dark gray accent */
     color: #fff;
     padding: 50px 0;
 }
@@ -60,7 +61,7 @@ header p {
 .hero h2 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #e94560;
+    color: #ffffff;
 }
 
 .hero p {
@@ -70,8 +71,10 @@ header p {
 
 .btn {
     display: inline-block;
-    color: #fff;
-    background: #e94560;
+    color: #1a1a1a;
+    /* Dark text on button */
+    background: #ffffff;
+    /* White button */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -79,19 +82,20 @@ header p {
 }
 
 .btn:hover {
-    background: #ba374e;
+    background: #cccccc;
+    /* Lighter gray on hover */
 }
 
 .products {
     padding: 40px 0;
     text-align: center;
-    background-color: #1a1a2e;
+    background-color: #1a1a1a;
 }
 
 .products h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
-    color: #e94560;
+    color: #ffffff;
 }
 
 .product-grid {
@@ -101,7 +105,7 @@ header p {
 }
 
 .product-item {
-    background: #16213e;
+    background: #222222;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -115,7 +119,7 @@ header p {
 }
 
 .product-item h3 {
-    color: #e0e0e0;
+    color: #f0f0f0;
     margin-bottom: 10px;
 }
 
@@ -127,14 +131,14 @@ header p {
 .contact {
     padding: 40px 0;
     text-align: center;
-    background: #0f3460;
+    background: #333333;
     color: #fff;
 }
 
 .contact h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #e94560;
+    color: #ffffff;
 }
 
 .contact p {
@@ -143,7 +147,7 @@ header p {
 }
 
 .contact a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -153,7 +157,7 @@ header p {
 }
 
 footer {
-    background: #16213e;
+    background: #222222;
     color: #b0b0b0;
     text-align: center;
     padding: 20px 0;
